@@ -27,7 +27,7 @@ body {
 }
 
 .btn {
-    width: 20%;
+    width: 30%;
     padding: 0.4rem;
     font-size: 1.5rem;
     border-radius: 4px;
@@ -39,4 +39,14 @@ body {
 .btn:hover {
     cursor: pointer;
     transform: translateY(-5px);
+}
+
+@media (max-width: 650px) {
+    .color-name {
+        font-size: 4rem;
+    }
+
+    .btn {
+        width: 50%;
+    }
 }
